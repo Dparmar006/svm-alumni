@@ -39,6 +39,7 @@
             "fname": "Disha",
             "lname": "Patel",
             "batch": 2022,
+            "password": "abc123",
             "department": "Computer Engineering",
             "email": "disha@gmail.com",
             "phone": "+91 123456789",
@@ -50,7 +51,7 @@
                 },
                 {
                     "name" : "NodeJS",
-                    "levelOfExperties": 3
+                    "levelOfExperties": 5
                 }
             ],
             "certificates": [
@@ -66,17 +67,79 @@
                     "designation": "Frontend developer",
                     "from": "23-4-2001",
                     "to": "12-6-2009"
+                },
+                {
+                    "industry": "Softsages tech ltd.",
+                    "designation": "Frontend developer",
+                    "from": "23-4-2001",
+                    "to": "12-6-2009"
+                }
+            ] 
+        },
+        {
+            "id":2,
+            "fname": "Meet",
+            "lname": "Patel",
+            "batch": 2022,
+            "passOutYear": 2024,
+            "department": "Computer Engineering",
+            "email": "disha@gmail.com",
+            "phone": "+91 123456789",
+            "isEmployed": true,
+            "institueCode": 1,
+            "institueName": "NSTI Gujarat",
+            "certificateNumber": "001",
+            "yearsOfExperience": 0,
+            "enrollmentNumber": 190453131018,
+            "currentPosisition": "Production Manager",
+            "techStack": [
+                {
+                    "name" : "ReactJS",
+                    "levelOfExperties": 3
+                },
+                {
+                    "name" : "NodeJS",
+                    "levelOfExperties": 5
+                }
+            ],
+            "certificates": [
+                {
+                    "title": "React course",
+                    "link": "hello.com/image",
+                    "description": "Aliquip proident sit ullamco proident reprehenderit dolor pariatur ut consequat."
+                }
+            ],
+            "workingExperience": [
+                {
+                    "industry": "Hello tech ltd.",
+                    "designation": "Frontend developer",
+                    "from": "23-4-2001",
+                    "to": "12-6-2009"
+                },
+                {
+                    "industry": "Softsages tech ltd.",
+                    "designation": "Frontend developer",
+                    "from": "23-4-2001",
+                    "to": "12-6-2009"
                 }
             ] 
         }
     ],
     "industries": [
         {
-            "id":1,
+            "id": 1,
             "name": "Hello tech pvt. ltd.",
-            "field": "IT",
+            "sector": "IT",
             "email": "hello@gmail.com",
-            "phone": "+91 123456789"
+            "phone": "+91 123456789",
+            "aboutUs": "Velit cillum voluptate nostrud aliqua. Cillum occaecat quis esse nisi. Labore laborum id dolor sint veniam ex nulla voluptate quis exercitation commodo. Fugiat et duis eiusmod elit Lorem excepteur mollit quis. Fugiat eu aute duis occaecat exercitation duis commodo officia. Culpa magna mollit esse aliqua velit occaecat. Et aliqua aute sunt occaecat ut culpa irure consequat fugiat exercitation fugiat irure.",
+            "vacanciesOpen": [
+                {
+                    "jobTitle": "Web Developement",
+                    "numberOfPositions": 4,
+                    "position": "Software developer" 
+                }
+            ]
         }
     ] 
 }

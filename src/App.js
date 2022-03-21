@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import BasicLayout from './layout/BasicLayout'
-import routes from './routes'
+import routes, { unauthemticatedRoutes } from './routes'
 
 function App () {
   return (
@@ -12,6 +12,15 @@ function App () {
               <Route
                 path={route.path}
                 element={<BasicLayout>{route.component}</BasicLayout>}
+              />
+            )
+          })}
+          
+          {unauthemticatedRoutes.map(route => {
+            return (
+              <Route
+                path={route.path}
+                element={route.component}
               />
             )
           })}
