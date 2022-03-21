@@ -1,0 +1,38 @@
+{
+    "students": [
+        {
+            "id":1,
+            "fname": "Meet",
+            "lname": "Pandya",
+            "batch": 2019
+        }
+
+    ],
+
+    "posts": [{
+        "id": 1,
+        "title": "Test Post",
+        "abstraction": "Deserunt do cillum eu magna id pariatur qui culpa qui. Nulla non nisi incididunt magna magna id reprehenderit voluptate nostrud. Eu labore fugiat aute nulla occaecat veniam ea irure deserunt velit consectetur exercitation. Duis labore id ad mollit culpa aliquip cupidatat laboris eu reprehenderit. Commodo aliquip exercitation consectetur laborum est. Irure ea cillum occaecat ex ullamco amet.",
+        "studentId": 1,
+        "techStack": [
+            {
+                "technology": "ReactJS",
+                "studentsExpertiesLevel": "4",
+                "description": "Nostrud eu et magna adipisicing magna amet non."
+            },
+            {
+                "technology": "ExpressJS",
+                "studentsExpertiesLevel": "2",
+                "description": "Nostrud eu et magna adipisicing magna amet non."
+            }
+        ]
+    }],
+    "alumni": [
+        {
+            "id":1,
+            "fname": "Disha",
+            "lname": "Patel",
+            "batch": 2022
+        }
+    ] 
+}
