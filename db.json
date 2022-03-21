@@ -6,7 +6,6 @@
             "lname": "Pandya",
             "batch": 2019
         }
-
     ],
 
     "posts": [{
@@ -27,6 +26,7 @@
             }
         ]
     }],
+    
     "alumni": [
         {
             "id":1,
