@@ -5,6 +5,12 @@
             "fname": "Meet",
             "lname": "Pandya",
             "batch": 2019
+        },
+        {
+            "id":2,
+            "fname": "Disha",
+            "lname": "Patel",
+            "batch": 2018
         }
     ],
 
