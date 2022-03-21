@@ -24,17 +24,14 @@ const BasicLayout = ({ children }) => {
           {sidebarCollapsed ? <h1>H</h1> : <h1>Hello</h1>}
         </div>
         <Menu theme='dark' mode='inline'>
-          <Menu.Item key='1' icon={<UserOutlined />}>
+          <Menu.Item key='0' icon={<UserOutlined />}>
             <Link to={'/'}>Dashboard</Link>
           </Menu.Item>
           <Menu.Item key='1' icon={<UserOutlined />}>
-            Alumni
+            <Link to={'/alumni'}>Alumni</Link>
           </Menu.Item>
-          <Menu.Item key='2' icon={<VideoCameraOutlined />}>
-            Almani requests
-          </Menu.Item>
-          <Menu.Item key='3' icon={<UploadOutlined />}>
-            Industries
+          <Menu.Item key='2' icon={<UserOutlined />}>
+            <Link to={'/industries'}>Industries</Link>
           </Menu.Item>
         </Menu>
       </Sider>

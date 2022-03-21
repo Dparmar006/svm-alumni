@@ -38,7 +38,45 @@
             "id":1,
             "fname": "Disha",
             "lname": "Patel",
-            "batch": 2022
+            "batch": 2022,
+            "department": "Computer Engineering",
+            "email": "disha@gmail.com",
+            "phone": "+91 123456789",
+            "isEmployed": true,
+            "techStack": [
+                {
+                    "name" : "ReactJS",
+                    "levelOfExperties": 3
+                },
+                {
+                    "name" : "NodeJS",
+                    "levelOfExperties": 3
+                }
+            ],
+            "certificates": [
+                {
+                    "title": "React course",
+                    "link": "hello.com/image",
+                    "description": "Aliquip proident sit ullamco proident reprehenderit dolor pariatur ut consequat."
+                }
+            ],
+            "workingExperience": [
+                {
+                    "industry": "Hello tech ltd.",
+                    "designation": "Frontend developer",
+                    "from": "23-4-2001",
+                    "to": "12-6-2009"
+                }
+            ] 
+        }
+    ],
+    "industries": [
+        {
+            "id":1,
+            "name": "Hello tech pvt. ltd.",
+            "field": "IT",
+            "email": "hello@gmail.com",
+            "phone": "+91 123456789"
         }
     ] 
 }
