@@ -21,7 +21,6 @@ const AlumniDetails = () => {
     try {
       const res = await api.get(`/alumni/${id}`)
       setAlumniData(res.data)
-      console.log(res.data)
     } catch (err) {
       message.error(err.message)
     } finally {

@@ -11,7 +11,6 @@ const ListAlumni = () => {
   const getData = async () => {
     try {
       const res = await api.get('/alumni')
-      console.log(res)
       setAlumni(res.data)
     } catch (err) {
       message.error(err.message)
