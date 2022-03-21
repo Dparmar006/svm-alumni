@@ -39,6 +39,7 @@
             "fname": "Disha",
             "lname": "Patel",
             "batch": 2022,
+            "password": "abc123",
             "department": "Computer Engineering",
             "email": "disha@gmail.com",
             "phone": "+91 123456789",
