@@ -103,6 +103,7 @@ const SignUp = () => {
     value: website,
   }));
   return (
+    <div style={{display: "flex", justifyContent:"center",alignItems:"center"}}>
     <Form
       {...formItemLayout}
       form={form}
@@ -252,6 +253,7 @@ const SignUp = () => {
         </Button>
       </Form.Item>
     </Form>
+    </div>
   );
 };
 

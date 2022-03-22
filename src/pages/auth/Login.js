@@ -10,6 +10,7 @@ const Login = () => {
   };
 
   return (
+      <div style={{display: "flex", justifyContent:"center",alignItems:"center"}}>
     <Form
       name="basic"
       labelCol={{
@@ -62,6 +63,7 @@ const Login = () => {
         </Button>
       </Form.Item>
     </Form>
+    </div>
   );
 };
 

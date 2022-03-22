@@ -5,6 +5,7 @@ import ListIndustries from './pages/Industries/ListIndustries'
 import Login from './pages/auth/Login';
 import SignUp from './pages/auth/SignUp';
 import LandingPage from './pages/Landing Page/Components/Landing Page'
+import IndustriesDetails from './pages/Industries/IndustriesDetails';
 
 const routes = [
   {
@@ -23,10 +24,18 @@ const routes = [
     component: <AlumniDetails />,
     path: '/alumni/:id'
   },
+  
+  //industry
+
   {
     title: 'Industries',
     component: <ListIndustries />,
     path: '/industries'
+  },
+  {
+    title: 'Industry Details',
+    component: <IndustriesDetails />,
+    path: '/industries/:id'
   },
   
 ]

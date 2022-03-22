@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Card, Row, Col, Divider, message } from 'antd'
+import { useNavigate } from 'react-router-dom'
 import api from '../../util/api'
 
 const ListIndustries = () => {
+  const navigate = useNavigate()
   const [industries, setIndustries] = useState([])
   const [isLoading, setLoading] = useState(true)
 
@@ -24,7 +26,11 @@ const ListIndustries = () => {
   return (
     <Row gutter={16}>
       {industries.map(industry => (
-        <Col xl={6} key={industry._id}>
+        <Col xl={6} key={industry._id}
+        onClick={() => {
+          navigate(`/industries/${industry.id}`)
+        }}
+        >
           <Card style={{ marginTop: 16 }} loading={isLoading}>
             <h3>
               {industry.name} {industry.field}

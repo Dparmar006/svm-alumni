@@ -42,9 +42,9 @@ function Article() {
         </div>
       </article>
 
-      <div className="cta">
+      <div className="">
         <h2>Ready To Build Your Community?</h2>
-        <StyledButton>Get Started For Free</StyledButton>
+        <StyledButton>Get Started</StyledButton>
       </div>
     </StyledArticleSection>
   );
