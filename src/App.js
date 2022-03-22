@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import BasicLayout from './Layout/BasicLayout'
+import BasicLayout from './layout/BasicLayout'
 import routes, { unauthemticatedRoutes } from './routes'
 
 function App () {
@@ -15,14 +15,9 @@ function App () {
               />
             )
           })}
-          
+
           {unauthemticatedRoutes.map(route => {
-            return (
-              <Route
-                path={route.path}
-                element={route.component}
-              />
-            )
+            return <Route path={route.path} element={route.component} />
           })}
         </Routes>
       </BrowserRouter>
