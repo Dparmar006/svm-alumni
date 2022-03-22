@@ -8,7 +8,7 @@ function Nav() {
     <Navbar>
       <Logo />
       <StyledButton color="#111" bg="white">
-        Try it Free
+        Events
       </StyledButton>
     </Navbar>
   );

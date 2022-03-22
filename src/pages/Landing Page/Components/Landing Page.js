@@ -32,7 +32,7 @@ const LandingPage = () => {
       <div className="appContainer">
         <Header />
         <Article />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </ThemeProvider>
   );
